@@ -1,0 +1,16 @@
+{
+  "name": "edge-ark-concept",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio concept: Edge Ark Financial Services homepage redesign (HTML, Tailwind CSS v4, vanilla JS)",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/output.css --minify",
+    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "start": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@fontsource-variable/manrope": "^5.2.8",
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

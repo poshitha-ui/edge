@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edge Ark Financial Services | Boutique financial services in Sydney</title>
+  <meta
+    name="description"
+    content="Edge Ark is a 100% Australian-owned boutique financial services firm in Sydney (AFSL 564271), offering general financial advice and sustainable investment information. Free initial consultation."
+  />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Edge Ark Financial Services" />
+  <meta property="og:title" content="Edge Ark Financial Services | Investing for your future" />
+  <meta
+    property="og:description"
+    content="Boutique financial services with a professional touch. General financial advice and sustainable investment information from a 100% Australian-owned firm."
+  />
+  <meta property="og:locale" content="en_AU" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="preload" href="assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="dist/output.css" />
+
+  <!-- Flag JS early so reveal/accordion styles only apply when scripting runs -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <a
+    href="#main"
+    class="fixed top-3 left-3 z-[100] -translate-y-20 rounded-md bg-teal px-4 py-2.5 text-sm font-semibold text-navy focus:translate-y-0"
+  >Skip to content</a>
+
+  <!-- ============================================================
+       1. HEADER & NAVIGATION
+  ============================================================= -->
+  <header id="site-header" class="site-header fixed inset-x-0 top-0 z-50 border-b border-transparent" data-surface="dark" data-scrolled="false" data-menu-open="false">
+    <div class="container-x header-row flex h-20 items-center justify-between">
+      <a href="#home" class="flex items-center gap-3" aria-label="Edge Ark Financial Services, home">
+        <img src="assets/icons/logo-mark.svg" alt="" width="34" height="34" class="size-[34px]" />
+        <span class="text-lg font-extrabold tracking-[0.14em] text-white">EDGE<span class="text-teal">ARK</span></span>
+      </a>
+
+      <nav aria-label="Primary" class="hidden items-center gap-8 lg:flex">
+        <ul class="flex items-center gap-8">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About Us</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#focus">Our Focus</a></li>
+          <li><a class="nav-link" href="#why-us">Why Us</a></li>
+          <li><a class="nav-link" href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="btn btn-primary hidden !min-h-11 !px-5 sm:inline-flex">Get a Quote</a>
+        <button
+          type="button"
+          id="menu-toggle"
+          class="relative grid size-12 place-items-center rounded-md lg:hidden"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span class="burger relative block h-4 w-6" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="mobile-menu absolute inset-x-0 top-full border-t border-white/10 bg-navy lg:hidden" data-open="false">
+      <nav aria-label="Mobile" class="container-x py-6">
+        <ul class="flex flex-col">
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#home">Home</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#about">About Us</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#services">Services</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#focus">Our Focus</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#why-us">Why Us</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#faq">FAQ</a></li>
+        </ul>
+        <a href="#contact" class="mobile-link btn btn-primary mt-6 w-full">Get a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============================================================
+         2. HERO
+    ============================================================= -->
+    <section id="home" class="relative isolate flex min-h-[100svh] flex-col overflow-hidden bg-navy pt-20 text-white" data-surface="dark" aria-labelledby="hero-title">
+      <!-- decorative layers -->
+      <div class="grid-lines pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute top-1/3 -right-40 -z-10 size-[640px] rounded-full bg-teal/10 blur-3xl" aria-hidden="true"></div>
+
+      <div class="container-x flex flex-1 items-center py-12 sm:py-16">
+        <div class="grid w-full gap-12 lg:grid-cols-12 lg:gap-10">
+          <!-- Copy: eyebrow aligns with the image top, CTAs with its bottom -->
+          <div class="flex max-w-2xl flex-col justify-between gap-8 lg:col-span-7">
+            <div>
+              <p class="eyebrow hero-in flex text-teal" style="--d: 0ms">Edge Ark Financial Services</p>
+              <h1 id="hero-title" class="t-display hero-in mt-6" style="--d: 80ms">
+                Investing<br />for your future
+              </h1>
+            </div>
+            <p class="t-lead hero-in max-w-xl text-fog" style="--d: 160ms">
+              A boutique Australian financial services firm with strategic alliances across the financial markets, offering
+              financial education and information with a professional, personal touch.
+            </p>
+            <div class="hero-in flex flex-col gap-3 sm:flex-row" style="--d: 240ms">
+              <a href="#contact" class="btn btn-primary">
+                Get a free consultation
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a href="#services" class="btn btn-ghost">Explore our services</a>
+            </div>
+          </div>
+
+          <!-- Photo in nested arches (outer rings are decorative, the photo sits in the inner arch) -->
+          <div class="hero-in lg:col-span-5 lg:flex lg:justify-end" style="--d: 200ms">
+            <div class="relative mx-auto aspect-[10/11] w-full max-w-md sm:max-w-lg lg:mx-0 lg:aspect-auto lg:min-h-[440px] lg:w-[400px] lg:max-w-full">
+              <div class="box-border h-full rounded-t-full border border-b-0 border-white/15 p-[6%] pb-0">
+                <div class="box-border h-full rounded-t-full border border-b-0 border-white/25 p-[7.5%] pb-0">
+                  <div class="img-zoom h-full overflow-hidden rounded-t-full bg-midnight ring-1 ring-white/30">
+                    <picture>
+                      <source media="(max-width: 639px)" srcset="assets/images/hero-photo-sm.webp" />
+                      <img
+                        src="assets/images/hero-photo.webp"
+                        alt="A lit stone archway framing the Sydney Opera House and city skyline at sunset"
+                        width="1145"
+                        height="1374"
+                        fetchpriority="high"
+                        class="size-full object-cover object-[42%_50%]"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              <!-- base line with teal accent -->
+              <span class="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-white/20" aria-hidden="true"></span>
+              <span class="pointer-events-none absolute bottom-0 left-0 h-px w-20 bg-teal" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Verified facts strip + scroll cue -->
+      <div class="hero-in border-t border-white/10" style="--d: 360ms">
+        <div class="container-x flex flex-col gap-4 py-5 sm:flex-row sm:items-center sm:justify-between">
+          <dl class="flex flex-wrap gap-x-10 gap-y-3 text-sm">
+            <div class="flex items-center gap-2.5"><dt class="text-fog">Licence</dt><dd class="font-semibold">AFSL 564271</dd></div>
+            <div class="flex items-center gap-2.5"><dt class="text-fog">Ownership</dt><dd class="font-semibold">100% Australian owned</dd></div>
+            <div class="flex items-center gap-2.5"><dt class="text-fog">Office</dt><dd class="font-semibold">Sydney, NSW</dd></div>
+          </dl>
+          <a href="#about" class="hidden items-center gap-3 text-xs font-semibold tracking-[0.18em] text-fog uppercase transition-colors hover:text-white sm:inline-flex" aria-label="Scroll to About Us">
+            Discover
+            <span class="relative block h-8 w-px overflow-hidden bg-white/20" aria-hidden="true"><span class="absolute top-0 left-0 block h-3 w-px bg-teal"></span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. ABOUT US
+    ============================================================= -->
+    <section id="about" class="section-y bg-offwhite" aria-labelledby="about-title">
+      <div class="container-x grid items-center gap-12 lg:grid-cols-12 lg:gap-20">
+        <div class="reveal lg:col-span-5">
+          <figure class="img-zoom relative overflow-hidden rounded-[var(--radius-card)] bg-navy">
+            <img
+              src="assets/images/about-facade.svg"
+              alt="Abstract illustration of a modern building facade with a grid of windows, one lit in teal"
+              width="800"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/5] w-full object-cover"
+            />
+            <figcaption class="absolute inset-x-5 bottom-5 flex items-center justify-between gap-4 rounded-md border border-white/15 bg-navy/90 px-5 py-4 text-white sm:inset-x-6 sm:bottom-6">
+              <span class="text-sm font-semibold">100% Australian owned</span>
+              <span class="text-xs text-fog">Managed by its principal owners</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="lg:col-span-7">
+          <p class="eyebrow reveal text-teal-deep">About Edge Ark</p>
+          <h2 id="about-title" class="t-h2 reveal mt-5 max-w-xl" style="--d: 60ms">A boutique firm built around personal service.</h2>
+          <p class="t-lead reveal mt-6 max-w-2xl text-muted" style="--d: 120ms">
+            Edge Ark is 100% Australian owned and managed by its principal owners. Through its alliances, the firm offers a
+            broad range of trading opportunities, whether you are an experienced trader or just getting started.
+          </p>
+          <p class="t-body reveal mt-5 max-w-2xl text-muted" style="--d: 180ms">
+            The mission is simple: investment solutions for serious investors who value personal service. Clients include
+            individuals, corporates, high net worth clients, overseas nationals and major financial institutions, and trust
+            and integrity sit at the centre of every relationship.
+          </p>
+          <div class="reveal mt-9" style="--d: 240ms">
+            <a
+              href="https://www.edgeark.com.au/about-us"
+              class="btn btn-dark"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read more about us
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              <span class="sr-only">(opens the official Edge Ark website in a new tab)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. SERVICES
+    ============================================================= -->
+    <section id="services" class="section-y border-y border-line bg-white" aria-labelledby="services-title">
+      <div class="container-x">
+        <div class="max-w-2xl">
+          <p class="eyebrow reveal text-teal-deep">What we do</p>
+          <h2 id="services-title" class="t-h2 reveal mt-5" style="--d: 60ms">Services we offer</h2>
+          <p class="t-lead reveal mt-5 text-muted" style="--d: 120ms">
+            Two service areas, one approach: clear information, delivered with personal service.
+          </p>
+        </div>
+
+        <ul class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <li class="reveal">
+            <article class="card flex h-full flex-col p-8">
+              <span class="icon-tile grid size-12 place-items-center rounded-lg bg-offwhite text-teal-deep">
+                <svg viewBox="0 0 24 24" class="size-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7l7-3 7 3" /><path d="M5 7l-3 8a4 4 0 0 0 6 0L5 7zM19 7l-3 8a4 4 0 0 0 6 0l-3-8z" /></svg>
+              </span>
+              <h3 class="t-h3 mt-6">General Financial Advice</h3>
+              <p class="t-body mt-3 text-muted">
+                Recommendations and opinions about financial products, given in general terms. Useful for comparing
+                products, learning, or narrowing down your options.
+              </p>
+              <p class="mt-4 rounded-md bg-offwhite px-4 py-3 text-sm text-muted">
+                General advice does not take your personal objectives, financial situation or needs into account.
+              </p>
+              <a href="https://www.edgeark.com.au/services/financial-advice" class="link-arrow mt-auto pt-7" target="_blank" rel="noopener noreferrer">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                <span class="sr-only">about General Financial Advice (opens in a new tab)</span>
+              </a>
+            </article>
+          </li>
+
+          <!-- Card 2 -->
+          <li class="reveal" style="--d: 80ms">
+            <article class="card flex h-full flex-col p-8">
+              <span class="icon-tile grid size-12 place-items-center rounded-lg bg-offwhite text-teal-deep">
+                <svg viewBox="0 0 24 24" class="size-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19C5 10 10 5 20 4c0 10-5 15-14 15z" /><path d="M5 19l7-7" /></svg>
+              </span>
+              <h3 class="t-h3 mt-6">Sustainable Investment</h3>
+              <p class="t-body mt-3 text-muted">
+                Using environmental, social and governance (ESG) considerations as a key driver for selecting investments,
+                alongside traditional financial analysis.
+              </p>
+              <ul class="mt-4 flex flex-wrap gap-2" aria-label="ESG pillars">
+                <li class="rounded-full border border-line px-3 py-1 text-xs font-semibold text-navy">Environmental</li>
+                <li class="rounded-full border border-line px-3 py-1 text-xs font-semibold text-navy">Social</li>
+                <li class="rounded-full border border-line px-3 py-1 text-xs font-semibold text-navy">Governance</li>
+              </ul>
+              <a href="https://www.edgeark.com.au/services/sustainable-investment" class="link-arrow mt-auto pt-7" target="_blank" rel="noopener noreferrer">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                <span class="sr-only">about Sustainable Investment (opens in a new tab)</span>
+              </a>
+            </article>
+          </li>
+
+          <!-- Card 3: consultation CTA -->
+          <li class="reveal md:col-span-2 lg:col-span-1" style="--d: 160ms">
+            <article class="flex h-full flex-col rounded-[var(--radius-card)] bg-navy p-8 text-white" data-surface="dark">
+              <span class="grid size-12 place-items-center rounded-lg bg-white/10 text-teal">
+                <svg viewBox="0 0 24 24" class="size-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z" /></svg>
+              </span>
+              <h3 class="t-h3 mt-6">Free initial consultation</h3>
+              <p class="t-body mt-3 text-fog">
+                Not sure which service fits? Start with a conversation. Every enquiry begins with a free initial consultation.
+              </p>
+              <a href="#contact" class="btn btn-primary mt-auto self-start">
+                Get in touch
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. OUR FOCUS
+    ============================================================= -->
+    <section id="focus" class="section-y relative overflow-hidden bg-navy text-white" data-surface="dark" aria-labelledby="focus-title">
+      <div class="grid-lines pointer-events-none absolute inset-0 opacity-60" aria-hidden="true"></div>
+      <div class="container-x relative">
+        <div class="max-w-2xl">
+          <p class="eyebrow reveal text-teal">What drives us</p>
+          <h2 id="focus-title" class="t-h2 reveal mt-5" style="--d: 60ms">Our focus</h2>
+        </div>
+
+        <div class="mt-14 grid gap-px overflow-hidden rounded-[var(--radius-card)] border border-white/10 bg-white/10 md:grid-cols-2">
+          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12">
+            <p class="text-sm font-semibold tracking-[0.18em] text-teal">01</p>
+            <h3 class="t-h3 mt-5 !text-2xl">Mission</h3>
+            <p class="t-body mt-4 text-fog">
+              Committed to the highest standards of professionalism and integrity, shown through ongoing professional
+              development of the team and a genuine understanding of clients, their businesses and their interests.
+            </p>
+          </article>
+          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12" style="--d: 100ms">
+            <p class="text-sm font-semibold tracking-[0.18em] text-teal">02</p>
+            <h3 class="t-h3 mt-5 !text-2xl">Vision</h3>
+            <p class="t-body mt-4 text-fog">
+              To be the chosen one-stop platform for investment education and information services in Australia, known for
+              excellent service built on knowledge and experience, and for working in partnership with clients toward
+              long-term profitability.
+            </p>
+          </article>
+        </div>
+
+        <div class="mt-16 grid gap-10 lg:grid-cols-12 lg:gap-16">
+          <div class="reveal lg:col-span-4">
+            <p class="eyebrow text-teal">Our principles</p>
+            <h3 class="t-h2 mt-5 !text-[clamp(1.6rem,1.2rem+1.6vw,2.25rem)]">Four values guide the work.</h3>
+          </div>
+          <ol class="grid gap-x-10 sm:grid-cols-2 lg:col-span-8">
+            <li class="reveal border-t border-white/15 py-6">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">01</p>
+              <h4 class="mt-3 text-xl font-semibold">Professional</h4>
+              <p class="mt-2 text-[0.95rem] leading-relaxed text-fog">
+                Excellence in relationships with investors, and high-quality services tailored to their needs, with
+                personalised, friendly communication.
+              </p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 80ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">02</p>
+              <h4 class="mt-3 text-xl font-semibold">Sustainable</h4>
+              <!-- TODO(confirm): Edge Ark's site lists this principle without a description. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 160ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">03</p>
+              <h4 class="mt-3 text-xl font-semibold">Consistent</h4>
+              <!-- TODO(confirm): no description on the source site. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 240ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">04</p>
+              <h4 class="mt-3 text-xl font-semibold">Diverse</h4>
+              <!-- TODO(confirm): no description on the source site. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. WHY CHOOSE US
+    ============================================================= -->
+    <section id="why-us" class="section-y bg-offwhite" aria-labelledby="why-title">
+      <div class="container-x grid gap-14 lg:grid-cols-12 lg:gap-20">
+        <div class="lg:col-span-4">
+          <div class="lg:sticky lg:top-28">
+            <p class="eyebrow reveal text-teal-deep">Why Edge Ark</p>
+            <h2 id="why-title" class="t-h2 reveal mt-5" style="--d: 60ms">Why work with Edge Ark</h2>
+            <p class="t-body reveal mt-5 text-muted" style="--d: 120ms">
+              A boutique firm with the alliances, people and support network to back a personal relationship.
+            </p>
+            <dl class="reveal mt-8 grid grid-cols-2 gap-3" style="--d: 180ms">
+              <div class="rounded-lg border border-line bg-white p-4">
+                <dt class="text-xs font-semibold tracking-[0.14em] text-muted uppercase">Licence</dt>
+                <dd class="mt-1.5 text-lg font-bold">AFSL 564271</dd>
+              </div>
+              <div class="rounded-lg border border-line bg-white p-4">
+                <dt class="text-xs font-semibold tracking-[0.14em] text-muted uppercase">Ownership</dt>
+                <dd class="mt-1.5 text-lg font-bold">100% Australian</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <ul class="grid gap-x-10 gap-y-2 sm:grid-cols-2 lg:col-span-8">
+          <li class="reveal border-t border-navy/15 py-8">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="12" r="2.5" /><circle cx="18" cy="6" r="2.5" /><circle cx="18" cy="18" r="2.5" /><path d="M8.2 10.8l7.6-3.6M8.2 13.2l7.6 3.6" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">Strategic alliances</h3>
+            <p class="t-body mt-2 text-muted">Alliances across all facets of the financial markets give clients access to a broad range of opportunities.</p>
+          </li>
+          <li class="reveal border-t border-navy/15 py-8" style="--d: 80ms">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 20v-1.5a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4V20" /><circle cx="9.5" cy="8" r="3.5" /><path d="M21 20v-1.5a4 4 0 0 0-3-3.9M15.5 4.2a3.5 3.5 0 0 1 0 6.6" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">An expert team</h3>
+            <p class="t-body mt-2 text-muted">New and seasoned financial professionals bring knowledge and expertise across a variety of financial areas.</p>
+          </li>
+          <li class="reveal border-t border-navy/15 py-8">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M4 21a8 8 0 0 1 16 0" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">Personal service</h3>
+            <p class="t-body mt-2 text-muted">Owned and managed by its principals, so relationships stay personal and communication stays friendly.</p>
+          </li>
+          <li class="reveal border-t border-navy/15 py-8" style="--d: 80ms">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z" /><path d="M8.5 12l2.5 2.5 5-5" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">Focused on stability</h3>
+            <p class="t-body mt-2 text-muted">The team works alongside clients with the aim of creating financial stability.</p>
+          </li>
+          <li class="reveal border-t border-navy/15 py-8">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z" /><path d="M3 13l9 5 9-5" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">A strong support network</h3>
+            <p class="t-body mt-2 text-muted">Investment research, compliance, technology, educational support and professional development sit behind the team.</p>
+          </li>
+          <li class="reveal border-t border-navy/15 py-8" style="--d: 80ms">
+            <span class="grid size-11 place-items-center rounded-lg bg-white text-teal-deep ring-1 ring-line">
+              <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5z" /><path d="M4 19a2 2 0 0 1 2-2h13" /></svg>
+            </span>
+            <h3 class="t-h3 mt-5">Education and information</h3>
+            <p class="t-body mt-2 text-muted">Financial education and information to help you understand your options before you act.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. FAQ
+    ============================================================= -->
+    <section id="faq" class="section-y border-y border-line bg-white" aria-labelledby="faq-title">
+      <div class="container-x grid gap-12 lg:grid-cols-12 lg:gap-20">
+        <div class="lg:col-span-4">
+          <p class="eyebrow reveal text-teal-deep">FAQ</p>
+          <h2 id="faq-title" class="t-h2 reveal mt-5" style="--d: 60ms">Frequently asked questions</h2>
+          <p class="t-body reveal mt-5 text-muted" style="--d: 120ms">
+            Can't find what you're looking for? Send the team a message.
+          </p>
+          <a href="#contact" class="link-arrow reveal mt-6" style="--d: 180ms">
+            Get in touch
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </a>
+        </div>
+
+        <div class="reveal lg:col-span-8" id="faq-list" style="--d: 100ms">
+          <!-- Item 1 -->
+          <div class="acc-item border-b border-line" data-open="true">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">
+                What is general financial advice?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div><p class="t-body max-w-2xl pb-6 text-muted">General financial advice is a recommendation or opinion about a financial product that is not tailored to your personal circumstances. It does not consider your income, expenses, assets, liabilities, goals or risk tolerance.</p></div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                Does Edge Ark provide personal financial advice?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div><p class="t-body max-w-2xl pb-6 text-muted">No. Edge Ark Pty Ltd (AFSL 564271) provides general financial product advice only. Before acting on any advice, consider whether it is appropriate to your circumstances and, if necessary, seek independent professional advice.</p></div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                When might general advice be useful?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div><p class="t-body max-w-2xl pb-6 text-muted">It can help if you want to compare or confirm your understanding of different financial products, such as a managed fund versus an ETF, or if you are researching and learning about financial topics. It may help you narrow down your options, but it won't tell you the best decision for your personal situation.</p></div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                What is sustainable investing, and what does ESG mean?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div><p class="t-body max-w-2xl pb-6 text-muted">Sustainable investing uses environmental, social and governance (ESG) considerations as a key driver for selecting investments, combined with traditional financial analysis. Environmental covers things like carbon emissions, waste and recycling, and supply chain management. Social covers diversity, health and safety, and human rights. Governance covers board structure and size, transparency and ownership structure.</p></div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                Who does Edge Ark work with?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div><p class="t-body max-w-2xl pb-6 text-muted">Clients vary by age and include individuals, corporates, high net worth individuals, overseas nationals and major financial institutions. Whether you are an experienced trader or just getting started, the firm aims to match its service to your needs.</p></div>
+            </div>
+          </div>
+          <!-- Item 6 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+                How do I get started?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a6" role="region" aria-labelledby="faq-q6">
+              <div>
+                <p class="t-body max-w-2xl pb-6 text-muted">Start with a free initial consultation. Use the <a href="#contact" class="font-semibold text-teal-deep underline underline-offset-4">contact form</a> below or email <a href="mailto:info@edgeark.com.au" class="font-semibold text-teal-deep underline underline-offset-4">info@edgeark.com.au</a>.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 7 -->
+          <div class="acc-item border-b border-line" data-open="false">
+            <h3>
+              <button type="button" class="acc-trigger flex min-h-16 w-full items-center justify-between gap-6 py-5 text-left text-lg font-semibold transition-colors hover:text-teal-deep" aria-expanded="false" aria-controls="faq-a7" id="faq-q7">
+                Where can I read the Financial Services Guide?
+                <svg class="acc-icon size-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14" /><path class="bar-v" d="M12 5v14" /></svg>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-a7" role="region" aria-labelledby="faq-q7">
+              <div>
+                <p class="t-body max-w-2xl pb-6 text-muted">The Financial Services Guide (FSG) is available as a PDF on the official Edge Ark website: <a href="https://www.edgeark.com.au/fsg.pdf" target="_blank" rel="noopener noreferrer" class="font-semibold text-teal-deep underline underline-offset-4">read the FSG<span class="sr-only"> (PDF, opens in a new tab)</span></a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. GET A QUOTE / CONTACT
+    ============================================================= -->
+    <section id="contact" class="section-y relative overflow-hidden bg-midnight text-white" data-surface="dark" aria-labelledby="contact-title">
+      <div class="pointer-events-none absolute -bottom-48 -left-40 size-[620px] rounded-full bg-teal/10 blur-3xl" aria-hidden="true"></div>
+      <div class="container-x relative grid gap-12 lg:grid-cols-12 lg:gap-20">
+        <div class="lg:col-span-5">
+          <p class="eyebrow reveal text-teal">Get in touch</p>
+          <h2 id="contact-title" class="t-h2 reveal mt-5" style="--d: 60ms">Start with a free initial consultation.</h2>
+          <p class="t-lead reveal mt-6 text-fog" style="--d: 120ms">
+            Tell the team a little about what you're looking for and they'll take it from there.
+          </p>
+
+          <ul class="reveal mt-10 space-y-6" style="--d: 180ms">
+            <li class="flex gap-4">
+              <span class="grid size-11 shrink-0 place-items-center rounded-lg bg-white/10 text-teal">
+                <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>
+              </span>
+              <div>
+                <p class="text-sm text-fog">Office</p>
+                <a href="https://www.google.com/maps/place/99+Bathurst+St,+Sydney+NSW+2000" target="_blank" rel="noopener noreferrer" class="mt-0.5 block font-semibold underline-offset-4 hover:underline">1404/99 Bathurst Street, Sydney, NSW 2000<span class="sr-only"> (opens in Google Maps)</span></a>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <span class="grid size-11 shrink-0 place-items-center rounded-lg bg-white/10 text-teal">
+                <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></svg>
+              </span>
+              <div>
+                <p class="text-sm text-fog">Email</p>
+                <a href="mailto:info@edgeark.com.au" class="mt-0.5 block font-semibold underline-offset-4 hover:underline">info@edgeark.com.au</a>
+              </div>
+            </li>
+          </ul>
+
+          <p class="reveal mt-10 border-l-2 border-teal pl-4 text-sm leading-relaxed text-fog" style="--d: 240ms">
+            Edge Ark provides general financial product advice only. It does not take your individual objectives, financial
+            situation or needs into account.
+          </p>
+        </div>
+
+        <div class="reveal lg:col-span-7" style="--d: 120ms">
+          <form id="contact-form" class="rounded-[var(--radius-card)] bg-white p-6 text-navy shadow-2xl shadow-black/30 sm:p-10" novalidate aria-labelledby="form-title" data-surface="light">
+            <h3 id="form-title" class="t-h3 !text-2xl">Leave us a message</h3>
+            <p class="mt-1 text-sm text-muted">Fields marked * are required.</p>
+
+            <div class="mt-8 grid gap-x-5 gap-y-1 sm:grid-cols-2">
+              <div>
+                <label for="f-name" class="mb-2 block text-sm font-semibold">Name <span aria-hidden="true">*</span></label>
+                <input id="f-name" name="name" type="text" class="field" autocomplete="name" required aria-describedby="f-name-err" />
+                <p id="f-name-err" class="field-error" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-email" class="mb-2 block text-sm font-semibold">Email <span aria-hidden="true">*</span></label>
+                <input id="f-email" name="email" type="email" class="field" autocomplete="email" inputmode="email" required aria-describedby="f-email-err" />
+                <p id="f-email-err" class="field-error" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-phone" class="mb-2 block text-sm font-semibold">Phone <span class="font-normal text-muted">(optional)</span></label>
+                <input id="f-phone" name="phone" type="tel" class="field" autocomplete="tel" inputmode="tel" aria-describedby="f-phone-err" />
+                <p id="f-phone-err" class="field-error" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-subject" class="mb-2 block text-sm font-semibold">Subject <span aria-hidden="true">*</span></label>
+                <input id="f-subject" name="subject" type="text" class="field" required aria-describedby="f-subject-err" />
+                <p id="f-subject-err" class="field-error" role="alert"></p>
+              </div>
+              <div class="sm:col-span-2">
+                <div class="mb-2 flex items-baseline justify-between">
+                  <label for="f-message" class="block text-sm font-semibold">Message <span aria-hidden="true">*</span></label>
+                  <span id="f-count" class="text-xs text-muted" aria-live="off">0 / 500</span>
+                </div>
+                <textarea id="f-message" name="message" rows="5" maxlength="500" class="field resize-y" required aria-describedby="f-message-err"></textarea>
+                <p id="f-message-err" class="field-error" role="alert"></p>
+              </div>
+            </div>
+
+            <button type="submit" id="f-submit" class="btn btn-dark mt-4 w-full sm:w-auto">
+              <span data-label>Request a consultation</span>
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </button>
+
+            <div id="f-status" class="mt-5 hidden rounded-md border px-4 py-3 text-sm leading-relaxed" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       9. FOOTER
+  ============================================================= -->
+  <footer class="bg-navy text-white" data-surface="dark">
+    <div class="container-x pt-16 pb-10 sm:pt-20">
+      <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
+        <div class="lg:col-span-5">
+          <a href="#home" class="inline-flex items-center gap-3" aria-label="Edge Ark Financial Services, back to top">
+            <img src="assets/icons/logo-mark.svg" alt="" width="34" height="34" class="size-[34px]" loading="lazy" />
+            <span class="text-lg font-extrabold tracking-[0.14em]">EDGE<span class="text-teal">ARK</span></span>
+          </a>
+          <p class="t-body mt-5 max-w-sm text-fog">
+            An exciting boutique financial services firm committed to the highest standards of professionalism and integrity.
+          </p>
+        </div>
+
+        <nav aria-label="Footer navigation" class="lg:col-span-2">
+          <h2 class="text-xs font-semibold tracking-[0.18em] text-teal uppercase">Navigate</h2>
+          <ul class="mt-5 space-y-3 text-[0.95rem]">
+            <li><a class="text-fog transition-colors hover:text-white" href="#home">Home</a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="#about">About Us</a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="#services">Services</a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="#focus">Our Focus</a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="#why-us">Why Us</a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="lg:col-span-2">
+          <h2 class="text-xs font-semibold tracking-[0.18em] text-teal uppercase">Services</h2>
+          <ul class="mt-5 space-y-3 text-[0.95rem]">
+            <li><a class="text-fog transition-colors hover:text-white" href="https://www.edgeark.com.au/services/financial-advice" target="_blank" rel="noopener noreferrer">Financial Advice<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a class="text-fog transition-colors hover:text-white" href="https://www.edgeark.com.au/services/sustainable-investment" target="_blank" rel="noopener noreferrer">Sustainable Investment<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-3">
+          <h2 class="text-xs font-semibold tracking-[0.18em] text-teal uppercase">Contact</h2>
+          <address class="mt-5 space-y-3 text-[0.95rem] not-italic">
+            <p>
+              <a class="text-fog transition-colors hover:text-white" href="https://www.google.com/maps/place/99+Bathurst+St,+Sydney+NSW+2000" target="_blank" rel="noopener noreferrer">1404/99 Bathurst Street,<br />Sydney, NSW 2000<span class="sr-only"> (opens in Google Maps)</span></a>
+            </p>
+            <p><a class="text-fog transition-colors hover:text-white" href="mailto:info@edgeark.com.au">info@edgeark.com.au</a></p>
+          </address>
+        </div>
+      </div>
+
+      <div class="mt-14 border-t border-white/10 pt-8">
+        <h2 class="text-xs font-semibold tracking-[0.18em] text-fog uppercase">General advice warning</h2>
+        <p class="mt-3 max-w-4xl text-sm leading-relaxed text-fog">
+          Edge Ark Pty Ltd (AFSL 564271) provides general financial product advice only. Any advice provided on this website
+          does not take into account your individual objectives, financial situation, or needs. Before acting on any advice,
+          you should consider whether it is appropriate to your circumstances and, if necessary, seek independent professional
+          advice. Edge Ark Pty Ltd does not provide personal financial product advice.
+        </p>
+      </div>
+
+      <div class="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-fog sm:flex-row sm:items-center sm:justify-between">
+        <p>&copy; 2026 Edge Ark Pty Ltd. AFSL No: 564271. All rights reserved.</p>
+        <ul class="flex flex-wrap gap-x-6 gap-y-2">
+          <li><a class="transition-colors hover:text-white" href="https://www.edgeark.com.au/disclaimer" target="_blank" rel="noopener noreferrer">Privacy Policy &middot; Disclaimer<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><a class="transition-colors hover:text-white" href="https://www.edgeark.com.au/fsg.pdf" target="_blank" rel="noopener noreferrer">Financial Services Guide<span class="sr-only"> (PDF, opens in a new tab)</span></a></li>
+        </ul>
+      </div>
+
+      <p class="mt-8 text-xs text-fog/70">
+        This page is an independent portfolio concept redesign and is not the official Edge Ark website. Visit
+        <a class="underline underline-offset-2 hover:text-white" href="https://www.edgeark.com.au/" target="_blank" rel="noopener noreferrer">edgeark.com.au<span class="sr-only"> (opens in a new tab)</span></a> for the official site.
+      </p>
+    </div>
+  </footer>
+
+  <script src="src/main.js" defer></script>
+</body>
+</html>

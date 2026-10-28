@@ -21,7 +21,7 @@ dist/output.css is already built, so index.html also opens from any static serve
 
 ## To confirm / replace
 
-- Hero and About visuals are generated SVG placeholders. Swap in licensed photography.
+- Hero and About visuals are generated SVG placeholders.
 - Logo mark is a concept mark, not Edge Ark's official logo.
 - Principles "Sustainable / Consistent / Diverse" have no description on the source site (marked TODO in index.html).
 - Form is not wired up: set FORM_ENDPOINT in src/main.js to enable live submission.

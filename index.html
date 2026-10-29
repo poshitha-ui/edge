@@ -49,8 +49,8 @@
           <li><a class="nav-link" href="#home">Home</a></li>
           <li><a class="nav-link" href="#about">About Us</a></li>
           <li><a class="nav-link" href="#services">Services</a></li>
-          <li><a class="nav-link" href="#focus">Our Focus</a></li>
           <li><a class="nav-link" href="#why-us">Why Us</a></li>
+          <li><a class="nav-link" href="#focus">Our Focus</a></li>
           <li><a class="nav-link" href="#faq">FAQ</a></li>
         </ul>
       </nav>
@@ -77,8 +77,8 @@
           <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#home">Home</a></li>
           <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#about">About Us</a></li>
           <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#services">Services</a></li>
-          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#focus">Our Focus</a></li>
           <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#why-us">Why Us</a></li>
+          <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#focus">Our Focus</a></li>
           <li><a class="mobile-link flex min-h-12 items-center border-b border-white/10 text-lg font-semibold text-white" href="#faq">FAQ</a></li>
         </ul>
         <a href="#contact" class="mobile-link btn btn-primary mt-6 w-full">Get a Quote</a>
@@ -87,6 +87,9 @@
   </header>
 
   <main id="main">
+    <!-- ============================================================
+         2. HERO
+    ============================================================= -->
     <!-- ============================================================
          2. HERO
     ============================================================= -->
@@ -120,9 +123,9 @@
 
           <!-- Photo in nested arches (outer rings are decorative, the photo sits in the inner arch) -->
           <div class="hero-in lg:col-span-5 lg:flex lg:justify-end" style="--d: 200ms">
-            <div class="relative mx-auto aspect-[10/11] w-full max-w-md sm:max-w-lg lg:mx-0 lg:aspect-auto lg:min-h-[440px] lg:w-[400px] lg:max-w-full">
+            <div class="relative mx-auto aspect-[10/11] w-full max-w-md sm:max-w-lg lg:mx-0 lg:aspect-auto lg:min-h-[500px] lg:w-[450px] lg:max-w-full">
               <div class="box-border h-full rounded-t-full border border-b-0 border-white/15 p-[6%] pb-0">
-                <div class="box-border h-full rounded-t-full border border-b-0 border-white/25 p-[7.5%] pb-0">
+                <div class="box-border h-full rounded-t-full border border-b-0 border-white/25 p-[0.5%] pb-0">
                   <div class="img-zoom h-full overflow-hidden rounded-t-full bg-midnight ring-1 ring-white/30">
                     <picture>
                       <source media="(max-width: 639px)" srcset="assets/images/hero-photo-sm.webp" />
@@ -294,75 +297,7 @@
     </section>
 
     <!-- ============================================================
-         5. OUR FOCUS
-    ============================================================= -->
-    <section id="focus" class="section-y relative overflow-hidden bg-navy text-white" data-surface="dark" aria-labelledby="focus-title">
-      <div class="grid-lines pointer-events-none absolute inset-0 opacity-60" aria-hidden="true"></div>
-      <div class="container-x relative">
-        <div class="max-w-2xl">
-          <p class="eyebrow reveal text-teal">What drives us</p>
-          <h2 id="focus-title" class="t-h2 reveal mt-5" style="--d: 60ms">Our focus</h2>
-        </div>
-
-        <div class="mt-14 grid gap-px overflow-hidden rounded-[var(--radius-card)] border border-white/10 bg-white/10 md:grid-cols-2">
-          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12">
-            <p class="text-sm font-semibold tracking-[0.18em] text-teal">01</p>
-            <h3 class="t-h3 mt-5 !text-2xl">Mission</h3>
-            <p class="t-body mt-4 text-fog">
-              Committed to the highest standards of professionalism and integrity, shown through ongoing professional
-              development of the team and a genuine understanding of clients, their businesses and their interests.
-            </p>
-          </article>
-          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12" style="--d: 100ms">
-            <p class="text-sm font-semibold tracking-[0.18em] text-teal">02</p>
-            <h3 class="t-h3 mt-5 !text-2xl">Vision</h3>
-            <p class="t-body mt-4 text-fog">
-              To be the chosen one-stop platform for investment education and information services in Australia, known for
-              excellent service built on knowledge and experience, and for working in partnership with clients toward
-              long-term profitability.
-            </p>
-          </article>
-        </div>
-
-        <div class="mt-16 grid gap-10 lg:grid-cols-12 lg:gap-16">
-          <div class="reveal lg:col-span-4">
-            <p class="eyebrow text-teal">Our principles</p>
-            <h3 class="t-h2 mt-5 !text-[clamp(1.6rem,1.2rem+1.6vw,2.25rem)]">Four values guide the work.</h3>
-          </div>
-          <ol class="grid gap-x-10 sm:grid-cols-2 lg:col-span-8">
-            <li class="reveal border-t border-white/15 py-6">
-              <p class="text-xs font-semibold tracking-[0.18em] text-teal">01</p>
-              <h4 class="mt-3 text-xl font-semibold">Professional</h4>
-              <p class="mt-2 text-[0.95rem] leading-relaxed text-fog">
-                Excellence in relationships with investors, and high-quality services tailored to their needs, with
-                personalised, friendly communication.
-              </p>
-            </li>
-            <li class="reveal border-t border-white/15 py-6" style="--d: 80ms">
-              <p class="text-xs font-semibold tracking-[0.18em] text-teal">02</p>
-              <h4 class="mt-3 text-xl font-semibold">Sustainable</h4>
-              <!-- TODO(confirm): Edge Ark's site lists this principle without a description. -->
-              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
-            </li>
-            <li class="reveal border-t border-white/15 py-6" style="--d: 160ms">
-              <p class="text-xs font-semibold tracking-[0.18em] text-teal">03</p>
-              <h4 class="mt-3 text-xl font-semibold">Consistent</h4>
-              <!-- TODO(confirm): no description on the source site. -->
-              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
-            </li>
-            <li class="reveal border-t border-white/15 py-6" style="--d: 240ms">
-              <p class="text-xs font-semibold tracking-[0.18em] text-teal">04</p>
-              <h4 class="mt-3 text-xl font-semibold">Diverse</h4>
-              <!-- TODO(confirm): no description on the source site. -->
-              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         6. WHY CHOOSE US
+         5. WHY CHOOSE US
     ============================================================= -->
     <section id="why-us" class="section-y bg-white" aria-labelledby="why-title">
       <div class="container-x grid gap-14 lg:grid-cols-12 lg:gap-20">
@@ -430,6 +365,74 @@
             <p class="t-body mt-2 text-muted">Financial education and information to help you understand your options before you act.</p>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. OUR FOCUS
+    ============================================================= -->
+    <section id="focus" class="section-y relative overflow-hidden bg-navy text-white" data-surface="dark" aria-labelledby="focus-title">
+      <div class="grid-lines pointer-events-none absolute inset-0 opacity-60" aria-hidden="true"></div>
+      <div class="container-x relative">
+        <div class="max-w-2xl">
+          <p class="eyebrow reveal text-teal">What drives us</p>
+          <h2 id="focus-title" class="t-h2 reveal mt-5" style="--d: 60ms">Our focus</h2>
+        </div>
+
+        <div class="mt-14 grid gap-px overflow-hidden rounded-[var(--radius-card)] border border-white/10 bg-white/10 md:grid-cols-2">
+          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12">
+            <p class="text-sm font-semibold tracking-[0.18em] text-teal">01</p>
+            <h3 class="t-h3 mt-5 !text-2xl">Mission</h3>
+            <p class="t-body mt-4 text-fog">
+              Committed to the highest standards of professionalism and integrity, shown through ongoing professional
+              development of the team and a genuine understanding of clients, their businesses and their interests.
+            </p>
+          </article>
+          <article class="reveal bg-navy p-8 sm:p-10 lg:p-12" style="--d: 100ms">
+            <p class="text-sm font-semibold tracking-[0.18em] text-teal">02</p>
+            <h3 class="t-h3 mt-5 !text-2xl">Vision</h3>
+            <p class="t-body mt-4 text-fog">
+              To be the chosen one-stop platform for investment education and information services in Australia, known for
+              excellent service built on knowledge and experience, and for working in partnership with clients toward
+              long-term profitability.
+            </p>
+          </article>
+        </div>
+
+        <div class="mt-16 grid gap-10 lg:grid-cols-12 lg:gap-16">
+          <div class="reveal lg:col-span-4">
+            <p class="eyebrow text-teal">Our principles</p>
+            <h3 class="t-h2 mt-5 !text-[clamp(1.6rem,1.2rem+1.6vw,2.25rem)]">Four values guide the work.</h3>
+          </div>
+          <ol class="grid gap-x-10 sm:grid-cols-2 lg:col-span-8">
+            <li class="reveal border-t border-white/15 py-6">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">01</p>
+              <h4 class="mt-3 text-xl font-semibold">Professional</h4>
+              <p class="mt-2 text-[0.95rem] leading-relaxed text-fog">
+                Excellence in relationships with investors, and high-quality services tailored to their needs, with
+                personalised, friendly communication.
+              </p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 80ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">02</p>
+              <h4 class="mt-3 text-xl font-semibold">Sustainable</h4>
+              <!-- TODO(confirm): Edge Ark's site lists this principle without a description. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 160ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">03</p>
+              <h4 class="mt-3 text-xl font-semibold">Consistent</h4>
+              <!-- TODO(confirm): no description on the source site. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+            <li class="reveal border-t border-white/15 py-6" style="--d: 240ms">
+              <p class="text-xs font-semibold tracking-[0.18em] text-teal">04</p>
+              <h4 class="mt-3 text-xl font-semibold">Diverse</h4>
+              <!-- TODO(confirm): no description on the source site. -->
+              <p class="mt-2 text-sm text-fog/70 italic">Description to be confirmed with Edge Ark.</p>
+            </li>
+          </ol>
+        </div>
       </div>
     </section>
 
